@@ -1,0 +1,72 @@
+\documentclass[a4paper,10pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+%TODO: finish formatting and read it again
+
+\begin{document}
+
+%Number of the question
+\textbf{10.}
+
+%Intro
+\textbf{Intro} \par
+In this question, we have to derive the inverse gamma density. We will follow the author's suggestion
+and use the change of variables formula.\par
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Solution
+\textbf{Solution} \par
+
+First, express X as a function of Y.
+
+%Equation 1
+\begin{equation}
+\begin{split}
+X = \frac{1}{Y}
+\end{split}
+\end{equation}
+
+Second, substitute x by y in the pdf of X:
+
+%Equation 2
+\begin{equation}
+\begin{split}
+p_x(x) = \frac{b^a}{\Gamma(a)}x^{a-1}e^{-bx} = \frac{b^a}{\Gamma(a)}y^{-a+1}e^{-b/y}
+\end{split}
+\end{equation}
+
+Third, calculat the derivative $\frac{dx}{dy}$.
+
+%Equation 3
+\begin{equation}
+\begin{split}
+\frac{dx}{dy} = -\frac{1}{y^2}
+\end{split}
+\end{equation}
+
+Now, we just need so substitute (2) and (3) in the expression of change of variables.
+
+%Equation 4
+\begin{equation}
+\begin{split}
+IG(y|a,b) = p_y(y) = p_x(x)|\frac{dx}{dy}| = \frac{b^a}{\Gamma(a)}y^{-a+1}e^{-b/y}\frac{1}{y^2} = \\
+\frac{b^a}{\Gamma(a)}y^{-(a+1)}e^{-b/y}
+\end{split}
+\end{equation}
+
+
+
+
+%Conclusion
+\textbf{Conclusion} \par
+
+The main conclusion of this exercise is to see how useful the change of variables formula can be.
+However, as stated in this chapter on section 2.7, most of the time, infering a pdf by change of 
+variables is difficult. 
+Thus, we must always be prepared to use Monte Carlo approximations.
+
+\end{document}
+
+
