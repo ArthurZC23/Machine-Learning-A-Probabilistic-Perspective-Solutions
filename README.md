@@ -8,7 +8,7 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## About the author
 
-I am brazillian Electrical Engineer graduated at Unicamp, one the most prestigious universities of my country.
+I am brazilian Electrical Engineer graduated at Unicamp, one the most prestigious universities of my country.
 I graduated as the best student of my class in 2016. Currently, I am a M.S. student on the Electrical Engineering program at the same University. If you want to know more about me, feel free to contact me. 
 
 
