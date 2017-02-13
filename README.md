@@ -6,6 +6,10 @@ Hey there. I am recording the solutions of the exercises of the fourth printing 
 
 I hope this might help anyone who has an interest in the book and Machine Learning as a whole. If you have any question, want to debate about the book, or think that some solution may be wrong or could be improved, feel free to send me an e-mail at: arthurzc23@gmail.com.
 
+## Updates
+
+02/13/2017: I will post the solutions of exercises 3.1 - 3.6 this week.
+
 ## About the author
 
 I am a brazilian Electrical Engineer graduated at Unicamp, one the most prestigious universities of my country.
