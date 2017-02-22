@@ -8,12 +8,13 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## Updates
 
-02/13/2017: I will post the solutions of exercises 3.1 - 3.6 this week.
+02/22/2017: No posts this week. I will post 3.7 - 3.11 next week
 
 ## About the author
 
 I am a brazilian Electrical Engineer graduated at Unicamp, one the most prestigious universities in my country.
-I graduated as the best student of my class in 2016. Currently, I am a M.S. student on the Electrical Engineering program at the same University. If you want to know more about me, feel free to contact me. 
+I graduated as the best student of my class in 2016, among other honors. Currently, I am a M.S. student on the Electrical Engineering program at the same University, where I intend to use machine learning in agriculture problems. I am interested in a summer 
+intership in Canada, on any startup/company working with machine learning. If you want to know more about me, feel free to contact me. 
 
 
 
