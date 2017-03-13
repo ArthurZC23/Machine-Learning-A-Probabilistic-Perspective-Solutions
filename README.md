@@ -8,7 +8,7 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## Updates
 
-03/01/2017: Just came back from Carnaval today. I will post the solutions to 3.7 - 3.11 until Sunday
+03/01/2017: I will post solutions 3.12 - 3.15 this week
 
 ## About the author
 
