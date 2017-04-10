@@ -8,7 +8,7 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## Updates
 
-03/22/2017: I little busy this week. I should post a couple exercises or more next week.
+04/10/2017: I will finish chapter 3 this week.
 
 ## About the author
 
