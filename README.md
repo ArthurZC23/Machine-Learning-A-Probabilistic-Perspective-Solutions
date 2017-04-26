@@ -12,7 +12,7 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## New decisions
 
-* As I read the book, I am facing new concepts that were useful to explain questions of previous chapters. However, due to time constraints, I do not intend to update the exercises with this new insights in the near future, save extraordinary cases.
+* As I read the book, I am facing new concepts that were useful to explain questions of previous chapters. However, due to time constraints, I do not intend to update the exercises with those new insights in the near future, save extraordinary cases.
 
 ## About the author
 
