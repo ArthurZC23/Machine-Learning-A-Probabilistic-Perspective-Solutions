@@ -8,7 +8,7 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## Updates
 
-04/26/2017: Next week I will post solutions to Exercises 3.1 - 3.9
+05/03/2017: This mounth I am rather busy doing my capstone project for a class at Unicamp. I should post exercise 3.11 next week, then take a break until july.
 
 ## New decisions
 
