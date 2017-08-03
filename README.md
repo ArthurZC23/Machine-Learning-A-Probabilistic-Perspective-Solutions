@@ -8,7 +8,6 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## Updates
 
-06/03/2017: Hey guys, this mounth I will resume the resolution of the book. To make it up for last mounth, I intend to finish chapter 4 in july if everything goes as planned :D. If some of you like visualization, check it out what I've been doing in the last mounth: [Walking Safe project](https://arthurzc23.github.io/Walking-Safe/). 
 
 ## New decisions
 
