@@ -1,0 +1,98 @@
+\documentclass[a4paper,10pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+%TODO: Everything
+
+\begin{document}
+
+%Number of the question
+\textbf{5.1}
+
+%Intro
+\textbf{Intro} \par
+
+In this exercise we will prove Equation 5.69. The result is very intuitive: it states that the posterior of a mixture of priors is composed
+by a mixture of corresponding posteriors. For example, in a coin toss example, if our prior is that the coin is fair or slightly biased towards head,
+our posterior will be an combination of our new beliefs in those 2 models, based on the data.
+\par
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Solution
+\textbf{Solution} \par
+
+Our prior can be expressed as a mixture of models:
+
+
+%Equation 1
+\begin{equation}
+\begin{split}
+p(\theta) = \sum_{k=1}^mp(z=k)p(\theta|z=k)
+\end{split}
+\end{equation}
+
+Equation 1 says that our belief can be decomposed in a weighted sum of $m$ different beliefs. The posterior as we already know can
+be expressed as:
+
+%Equation 2
+\begin{equation}
+\begin{split}
+p(\theta | D) = \frac{p(D | \theta)  p(\theta)}{p(D)} = \frac{L(\theta) p(\theta)}{p(D)}
+\end{split}
+\end{equation}
+
+where $L(\theta)$ is just syntatic sugar to refer to the likelihood. Substituting (1) in (2):
+
+%Equation 3
+\begin{equation}
+\begin{split}
+p(\theta | D) =  \sum_{k=1}^m \frac{1}{p(D)} p(z=k)p(\theta|z=k)L(\theta) 
+\end{split}
+\end{equation}
+
+This next step is the most crucial part of the demonstration. It  relies on the property $p(D |\theta) = p(D |\theta, z=k)$.
+In another word, if we already know $\theta$, there is no gain for the likelihood in knowing the latent variable z. Using this property
+in (3) and making some additional calculations we arrive at:
+
+%Equation 4
+\begin{equation}
+\begin{split}
+& p(\theta | D) =  \sum_{k=1}^m \frac{p(z=k)}{p(D)} p(\theta|z=k)p(D |\theta, z=k) = \\
+& \sum_{k=1}^m \frac{\alpha_kp(z=k)}{p(D)} \frac{p(\theta|z=k)p(D |\theta, z=k)}{\alpha_k} = \\
+& \sum_{k=1}^m \frac{\alpha_kp(z=k)}{p(D)} p(\theta | D, z = k)
+\end{split}
+\end{equation}
+
+In Equation 4, notice that each $\alpha_k$ is the normalizaiton constant capable of finishing the derivation of the posterior for $\theta$.
+So, we arrive in a mixture of posteriors, where the weights are $w_k = \frac{\alpha_kp(z=k)}{p(D)}$. Since the mixture has to be a convex combination
+of probability models, we have $\sum_{k=1}^m w_k = 1$. Thus, 
+
+%Equation 5
+\begin{equation}
+\begin{split}
+& \sum_{k=1}^m\frac{\alpha_kp(z=k)}{p(D)} = 1 \\
+& \sum_{k=1}^m\alpha_kp(z=k) = p(D) = \sum_{k=1}^mp(D, z = k) = \sum_{k=1}^mp(z= k)p(D | z= k)
+\end{split}
+\end{equation}
+
+So, our normalizaiton constants are equal to $\alpha_k = p(D | z = k)$. Substituting this result on (4) we finally arrive at:
+
+%Equation 6
+\begin{equation}
+\begin{split}
+& p(\theta | D) = \sum_{k=1}^mp(z = k | D) p(\theta | D, z = k)
+\end{split}
+\end{equation}
+
+
+%Conclusion
+\textbf{Conclusion} \par
+In this exercise we have shown how to derive Equation 5.69. More specifically, we derived the posteior for a model with a mixture of priors. We arrived at the natural 
+conclusion that the posterior for a mixture of priors is a mixture of those priors posteriors. \textbf{However}, it is very important to notice that the data
+modify not only the distributions but also the weights of our priors belifs. Going back to our coin example. If our data is composed of 95 heads and 5 tails,
+our posterior associated with the biased coin will have a much bigger weight than the fair coin posterior.
+
+\end{document}
+
+
