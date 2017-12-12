@@ -6,9 +6,9 @@ Hey there. I am recording the solutions of the exercises of the fourth printing 
 
 I hope this might help anyone who has an interest in the book and Machine Learning as a whole. If you have any question, want to debate about the book, or think that some solution may be wrong or could be improved, feel free to send me an e-mail at: arthurzc23@gmail.com.
 
-## Updates (14/08/2017)
+## Updates (12/12/2017)
 
-Until this moment, I have solved the exercises in their chronological order of appereance, chapter by chapter. Since there are several chapters with different interesting contents, I will start to post exercises of all chapters, without regard to theur chronological order. 
+Hey guys. I am currently on recovery from a sirgury, so I will not contiunu to update this repo this year. I will be back full steam on 2018. Nice holydays to everyone.
 
 ## New decisions
 
