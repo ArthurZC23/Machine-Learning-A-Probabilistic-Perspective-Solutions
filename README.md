@@ -8,7 +8,7 @@ I hope this might help anyone who has an interest in the book and Machine Learni
 
 ## Updates (20/03/2017)
 
-Hello guys, I am finally back. During my break some people contacted me about the future of the repository and I want to share with all what i've told them. The repository goal is to give a solution manual for the **whole book**. I believe this semester I will finish Chapters 4, 5, 6 and maybe 7. I will try to post the exercises more frequently, but keep in mind that this is not my main priority list at the moment. 
+Hello guys, I am finally back. During my break some people contacted me about the future of the repository and I want to share with all what I've told them. The repository goal is to give a solution manual for the **whole book**. I believe this semester I will finish Chapters 4, 5, 6 and maybe 7. I will try to post the exercises more frequently, but keep in mind that this is not my main priority at the moment. 
 
 ## New decisions
 
