@@ -1,3 +1,5 @@
+<a href=“https://tracking.gitads.io/?repo=Machine-Learning-A-Probabilistic-Perspective-Solutions”><img src="https://images.gitads.io/Machine-Learning-A-Probabilistic-Perspective-Solutions" alt=“GitAds”/></a>
+
 # Machine-Learning-A-Probabilistic-Perspective-Solutions
 
 ## Motivation
